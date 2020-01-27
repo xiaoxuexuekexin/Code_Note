@@ -1,0 +1,2 @@
+ git config --system core.editor  "'/c/Program Files/Notepad++/notepad++.exe' -multilnst -notabbar -nosession -noPlugin '$*'"
+"#解决文件夹存在空格引起的问题（通过增加双引号解决  尝试通过 替换空格换成\空格 也行不通） 
