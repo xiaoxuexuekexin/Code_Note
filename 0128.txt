@@ -1,0 +1,7 @@
+更改全局编辑器命令 git config --system core.editor  "'/c/Program Files/Notepad++/notepad++.exe' -multilnst -notabbar -nosession -noPlugin '$*'"
+
+""解决文件夹存在空格引起的问题（通过增加双引号解决  尝试通过 替换空格换成\空格 也行不通） 
+
+git revert 可以撤销回之前的一个历史提交到本地,本地的相关文件的修改会提示需要缓存\提交,然后可以把revert 的提交再次修改提交
+
+git reset 可以在本地合并提交历史,整理好后,再推送到远程分支
