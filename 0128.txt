@@ -11,3 +11,5 @@ git clean 可以清理本地目录未被跟踪的文件,命令对于 build 后清理工作目录十分有用。
 git commit --amend --no-edit
 
 git rebase -i
+
+增加分支的学习，建立一个分支 就是多一个指针
